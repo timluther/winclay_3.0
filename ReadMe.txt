@@ -12,5 +12,6 @@ of direct framebuffer access very well and as a result, the UI redraw speed is a
 The engine renders in 565 16bit colour mode so in order to get the bundled exe to work correctly, 
 try right clicking on the exe, select 'properties' then 'App Compatability' and then select 'Reduce Colour Mode > 16bit(65536) colour'
 
-This is the version I maintained whilst working at A.I. Cube in Tokyo, the company responsible for the engine
-behind 'Gitaroo man'. This version of Clayworks can export scenefiles to the Xeios engine.
+This is the version I maintained whilst working on the Xeios engine at A.I. Cube in Tokyo, the company responsible for the engine
+behind 'Gitaroo man'. This version of Clayworks can export scenefiles to Xeios.
+
