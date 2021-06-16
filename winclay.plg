@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: winclay - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\tim\LOCALS~1\Temp\RSPF.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "d:\code\winclay\include" /I "c:\prog\c\winclay\include" /I "include" /I "..\include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/winclay.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\code\WINCLAY\scenegraph\BASIC3D.CPP"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\tim\LOCALS~1\Temp\RSPF.tmp" 
+Creating temporary file "C:\DOCUME~1\tim\LOCALS~1\Temp\RSP10.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib ddraw.lib dxguid.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/winclay.pdb" /machine:I386 /out:"Release/winclay.exe" 
+.\Release\Dialogs.obj
+.\Release\Views.obj
+.\Release\Widgets.obj
+.\Release\BMP.OBJ
+.\Release\COLOUR.OBJ
+.\Release\Imgloadr.obj
+.\Release\imx.obj
+.\Release\JPG.OBJ
+.\Release\PCX256.OBJ
+.\Release\TGA.OBJ
+.\Release\colourconv.obj
+.\Release\context.obj
+.\Release\font.obj
+.\Release\Gbasics.obj
+.\Release\raster2d.obj
+.\Release\surface.obj
+.\Release\tables.obj
+.\Release\io.obj
+.\Release\logger.obj
+.\Release\TMATHS.OBJ
+.\Release\TTYPES.OBJ
+.\Release\Trender.obj
+.\Release\3DFILE.OBJ
+.\Release\BASIC3D.OBJ
+.\Release\Editscn.obj
+.\Release\GPRIM.OBJ
+.\Release\main.obj
+.\Release\MSMOUSE.OBJ
+.\Release\mstwin.obj
+.\Release\Perlin.obj
+.\Release\StdAfx.obj
+.\Release\Strtable.obj
+.\Release\winclay.res
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\tim\LOCALS~1\Temp\RSP10.tmp"
+<h3>Output Window</h3>
+Compiling...
+BASIC3D.CPP
+D:\code\WINCLAY\scenegraph\BASIC3D.CPP(1061) : warning C4018: '<' : signed/unsigned mismatch
+D:\code\WINCLAY\scenegraph\BASIC3D.CPP(2509) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\code\WINCLAY\scenegraph\BASIC3D.CPP(2509) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\code\WINCLAY\scenegraph\BASIC3D.CPP(2509) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\code\WINCLAY\scenegraph\BASIC3D.CPP(2509) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+Linking...
+LINK : warning LNK4089: all references to "OPENGL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+winclay.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
